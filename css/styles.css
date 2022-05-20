@@ -1,3 +1,28 @@
 .link {
-    color: blue;
+    color: #000;
+}
+.link:hover{
+    color: red;
+}
+.link:active{
+    color: yellow;
+}
+.link:focus {
+    background-color: #000;
+}
+.link:visited{
+    background-color: aquamarine;
+}
+
+.schedule{
+    border-collapse: collapse;
+}
+.schedule th,
+.schedule td{
+    padding: 10px;
+    border: #000 1px solid;
+
+}
+.schedule-body > tr:hover{
+    background-color: aqua;
 }
